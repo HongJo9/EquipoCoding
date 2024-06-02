@@ -289,6 +289,7 @@ footer {
   display: flex;
   flex-direction: column;
   row-gap: 1.45rem;
+  text-decoration: none;
 }
 @media (min-width: 1200px) {
   .header-menu,
@@ -299,7 +300,7 @@ footer {
   }
 }
 .header-menu__link,
-.footer-menu__link {
+.footer-menu_link {
   color: #fff;
   text-decoration: none;
   opacity: 0.9;
@@ -307,7 +308,7 @@ footer {
 }
 @media (min-width: 1200px) {
   .header-menu__link::after,
-  .footer-menu__link::after {
+  .footer-menu_link::after {
     content: "";
     display: block;
     width: 0;
@@ -319,7 +320,7 @@ footer {
     bottom: -8px;
   }
   .header-menu__link:hover::after,
-  .footer-menu__link:hover::after {
+  .footer-menu_link:hover::after {
     width: 100%;
     left: 0;
   }
